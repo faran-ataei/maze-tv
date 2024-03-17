@@ -33,7 +33,7 @@ const mazetvData = async () => {
         const img = document.createElement("img");
         img.src = element.image.medium;
         img.style.cssText =
-          "max-width: 210px; height: 295px; border-radius: 10px; width: 100%;";
+          "max-width: 210px;  border-radius: 10px; width: 100%;";
   
         // set title
         const title = document.createElement("h3");
